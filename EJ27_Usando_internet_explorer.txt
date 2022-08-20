@@ -1,0 +1,5 @@
+from selenium  import  webdriver
+
+driver = webdriver.Ie(executable_path=r"C:\Users\lirrera\Documents\Seleniume\explorer_driver\IEDriverServer.exe")
+driver.get("http://www.google.com")
+driver.close()
